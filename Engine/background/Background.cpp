@@ -1,7 +1,9 @@
 #include "Background.h"
 
-void Background::draw() {
-    SDL_RenderCopyF(renderer, backtex, nullptr, &backRect);
+void Background::draw(float cameraX, float cameraY) {
+    SDL_FRect adjustedRect = { backRect.x - cameraX, backRect.y - cameraY, backRect.w, backRect.h };
+
+    SDL_RenderCopyF(renderer, backtex, nullptr, &adjustedRect);
 }
 
 void Background::loadBackground() {

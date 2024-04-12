@@ -10,9 +10,9 @@ class Irenderer;
 class IPlayer {
     public:
         virtual void initObj(Iwindow& win, int w, int h, float _mass, float _deacell) = 0;
-        virtual void draw() = 0;
-        virtual SDL_FRect& playerDstRect() = 0;
-        virtual SDL_Rect& playerSrcRect() = 0;
+        virtual void draw(float cameraX, float cameraY) = 0;
+        virtual SDL_FRect& dstRect() = 0;
+        virtual SDL_Rect& srcRect() = 0;
         virtual Vector2<float>& velocity() = 0;
         virtual Vector2<float>& directionVec() = 0;
         virtual float& deacelleration() = 0;

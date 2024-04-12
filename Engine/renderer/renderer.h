@@ -8,7 +8,7 @@ class Renderer : public Irenderer {
             if(_windowPtr == nullptr) {
                 std::cout << "Failed to init renderer, window pointer error!\n";
             }
-            _renderer = SDL_CreateRenderer(_windowPtr, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
+            _renderer = SDL_CreateRenderer(_windowPtr, -1, SDL_RENDERER_ACCELERATED);
             std::cout << "Renderer created!\n";
         }
         

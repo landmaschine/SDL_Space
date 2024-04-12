@@ -22,6 +22,7 @@ class Window : public Iwindow {
         }
 
         void fullscreen(bool flag, IPlayer &player) override;
+        void resizeUpdate(IPlayer &player, ICamera& cam) override;
 
     private:
         SDL_Window* _windowP;

@@ -23,13 +23,13 @@ class Player : public IPlayer {
             vel.y = 1;
         }
         
-        void draw() override;
+        void draw(float cameraX, float cameraY) override;
         
-        SDL_FRect& playerDstRect() override {
+        SDL_FRect& dstRect() override {
             return playerDst_Rect;
         }
 
-        SDL_Rect& playerSrcRect() override {
+        SDL_Rect& srcRect() override {
             return playerSrc_Rect;
         }
 

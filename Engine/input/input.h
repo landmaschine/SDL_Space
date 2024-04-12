@@ -3,7 +3,7 @@
 
 class Inputhandler : public I_input {
     public:
-        bool input(IPlayer &obj, IMovement &move, Iwindow &window) override;
+        bool input(IPlayer &obj, IMovement &move, Iwindow &window, ICamera& cam) override;
         Vector2<float>& mousePos() override {
             return mousepos;
         }

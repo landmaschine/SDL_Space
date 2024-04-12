@@ -14,15 +14,26 @@ void Window::fullscreen(bool flag, IPlayer& player) {
         SDL_SetWindowPosition(_windowP, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
         int _w, _h;
         SDL_GetWindowSize(_windowP, &_w, &_h);
-        player.playerDstRect().x = (_w / 2) - (player.playerSrcRect().w / 2);
-        player.playerDstRect().y = (_h / 2) - (player.playerSrcRect().h / 2);
+        player.dstRect().x = (_w / 2) - (player.srcRect().w / 2);
+        player.dstRect().y = (_h / 2) - (player.srcRect().h / 2);
     } else {
         SDL_SetWindowFullscreen(_windowP, 0);
         SDL_SetWindowPosition(_windowP, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
         int _w, _h;
         SDL_GetWindowSize(_windowP, &_w, &_h);
-        player.playerDstRect().x = (_w / 2) - (player.playerSrcRect().w / 2);
-        player.playerDstRect().y = (_h / 2) - (player.playerSrcRect().h / 2);
+        player.dstRect().x = (_w / 2) - (player.srcRect().w / 2);
+        player.dstRect().y = (_h / 2) - (player.srcRect().h / 2);
     }
 
+}
+
+void Window::resizeUpdate(IPlayer &player, ICamera& cam) {
+    int _w, _h;
+    SDL_GetWindowSize(_windowP, &_w, &_h);
+    player.dstRect().x = (_w / 2) - (player.srcRect().w / 2);
+    player.dstRect().y = (_h / 2) - (player.srcRect().h / 2);
+    cam.rect().x = player.dstRect().x / 2;
+    cam.rect().y = player.dstRect().y / 2;
+    cam.rect().w = _w / 2;
+    cam.rect().h = _h / 2;
 }

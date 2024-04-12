@@ -29,22 +29,22 @@ void space::run() {
         render();
         accumulator -= frametime;
     }
-    utils::Frames(frameCount, startTime);
 }
 
 void space::input() {
-    runner = inputhandler.input(player, playerMove, window);
+    runner = inputhandler.input(player, playerMove, window, camera);
 }
 
 void space::update(double dt) {
-    playerMove.playerPosUpdate(player, inputhandler, backgroundmanager, dt);
-    playerMove.playerRotUpdate(player, inputhandler, backgroundmanager, dt);
+    playerMove.playerPosUpdate(player, inputhandler, dt);
+    playerMove.playerRotUpdate(player, inputhandler, dt);
+    camera.easing(player, window, 1);
 }
 
 void space::render() {
     SDL_RenderClear(renderer.renderer());
-    backgroundmanager.draw();
-    player.draw();
+    backgroundmanager.draw(camera.rect().x, camera.rect().y);
+    player.draw(camera.rect().x, camera.rect().y);
     SDL_RenderPresent(renderer.renderer());
 }
 

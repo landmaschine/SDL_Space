@@ -6,10 +6,11 @@ class Iwindow;
 #include "../player/player.h"
 #include "../movement/Movement.h"
 #include "../window/window.h"
+#include "../camera/Camera.h"
 
 class I_input {
     public:
-        virtual bool input(IPlayer &obj, IMovement &move, Iwindow& window) = 0;
+        virtual bool input(IPlayer &obj, IMovement &move, Iwindow& window, ICamera &cam) = 0;
         virtual Vector2<float>& mousePos() = 0;
         virtual bool pressedA() = 0;
         virtual bool pressedD() = 0;

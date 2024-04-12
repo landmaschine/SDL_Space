@@ -9,6 +9,7 @@
 #include "../Engine/texture/Texture.h"
 #include "../Engine/background/Background.h"
 #include "../Engine/player/player.h"
+#include "../Engine/camera/Camera.h"
 
 class space {
     public:
@@ -20,7 +21,7 @@ class space {
         bool runner;
         const float timeStep = 0.005f;
         float accumulator = 0.0f;
-        double currentTime = utils::hireTimeInSeconds();
+        double currentTime;
         
         int frameCount = 0;
         double startTime = SDL_GetTicks64();
@@ -37,4 +38,5 @@ class space {
         Movement playerMove;
         Texturemanager texturemanager;
         Background backgroundmanager;
+        Camera camera;
 };
