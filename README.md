@@ -1,4 +1,4 @@
->[!IMPORTANT]
+>[!CAUTION]
 >Work in Progress!
  
 2D Space Game<br>
