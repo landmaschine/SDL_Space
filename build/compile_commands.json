@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/leonw/Documents/dev/SDL_Space/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/leonw/Documents/dev/SDL_Space/Engine -g -std=gnu++17 -o CMakeFiles/Space.dir/Engine/background/Background.cpp.o -c /home/leonw/Documents/dev/SDL_Space/Engine/background/Background.cpp",
+  "file": "/home/leonw/Documents/dev/SDL_Space/Engine/background/Background.cpp",
+  "output": "CMakeFiles/Space.dir/Engine/background/Background.cpp.o"
+},
+{
+  "directory": "/home/leonw/Documents/dev/SDL_Space/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/leonw/Documents/dev/SDL_Space/Engine -g -std=gnu++17 -o CMakeFiles/Space.dir/Engine/camera/Camera.cpp.o -c /home/leonw/Documents/dev/SDL_Space/Engine/camera/Camera.cpp",
+  "file": "/home/leonw/Documents/dev/SDL_Space/Engine/camera/Camera.cpp",
+  "output": "CMakeFiles/Space.dir/Engine/camera/Camera.cpp.o"
+},
+{
+  "directory": "/home/leonw/Documents/dev/SDL_Space/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/leonw/Documents/dev/SDL_Space/Engine -g -std=gnu++17 -o CMakeFiles/Space.dir/Engine/input/input.cpp.o -c /home/leonw/Documents/dev/SDL_Space/Engine/input/input.cpp",
+  "file": "/home/leonw/Documents/dev/SDL_Space/Engine/input/input.cpp",
+  "output": "CMakeFiles/Space.dir/Engine/input/input.cpp.o"
+},
+{
+  "directory": "/home/leonw/Documents/dev/SDL_Space/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/leonw/Documents/dev/SDL_Space/Engine -g -std=gnu++17 -o CMakeFiles/Space.dir/Engine/movement/Movement.cpp.o -c /home/leonw/Documents/dev/SDL_Space/Engine/movement/Movement.cpp",
+  "file": "/home/leonw/Documents/dev/SDL_Space/Engine/movement/Movement.cpp",
+  "output": "CMakeFiles/Space.dir/Engine/movement/Movement.cpp.o"
+},
+{
+  "directory": "/home/leonw/Documents/dev/SDL_Space/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/leonw/Documents/dev/SDL_Space/Engine -g -std=gnu++17 -o CMakeFiles/Space.dir/Engine/player/player.cpp.o -c /home/leonw/Documents/dev/SDL_Space/Engine/player/player.cpp",
+  "file": "/home/leonw/Documents/dev/SDL_Space/Engine/player/player.cpp",
+  "output": "CMakeFiles/Space.dir/Engine/player/player.cpp.o"
+},
+{
+  "directory": "/home/leonw/Documents/dev/SDL_Space/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/leonw/Documents/dev/SDL_Space/Engine -g -std=gnu++17 -o CMakeFiles/Space.dir/Engine/space.cpp.o -c /home/leonw/Documents/dev/SDL_Space/Engine/space.cpp",
+  "file": "/home/leonw/Documents/dev/SDL_Space/Engine/space.cpp",
+  "output": "CMakeFiles/Space.dir/Engine/space.cpp.o"
+},
+{
+  "directory": "/home/leonw/Documents/dev/SDL_Space/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/leonw/Documents/dev/SDL_Space/Engine -g -std=gnu++17 -o CMakeFiles/Space.dir/Engine/texture/Texture.cpp.o -c /home/leonw/Documents/dev/SDL_Space/Engine/texture/Texture.cpp",
+  "file": "/home/leonw/Documents/dev/SDL_Space/Engine/texture/Texture.cpp",
+  "output": "CMakeFiles/Space.dir/Engine/texture/Texture.cpp.o"
+},
+{
+  "directory": "/home/leonw/Documents/dev/SDL_Space/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/leonw/Documents/dev/SDL_Space/Engine -g -std=gnu++17 -o CMakeFiles/Space.dir/Engine/window/window.cpp.o -c /home/leonw/Documents/dev/SDL_Space/Engine/window/window.cpp",
+  "file": "/home/leonw/Documents/dev/SDL_Space/Engine/window/window.cpp",
+  "output": "CMakeFiles/Space.dir/Engine/window/window.cpp.o"
+},
+{
+  "directory": "/home/leonw/Documents/dev/SDL_Space/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/leonw/Documents/dev/SDL_Space/Engine -g -std=gnu++17 -o CMakeFiles/Space.dir/src/main.cpp.o -c /home/leonw/Documents/dev/SDL_Space/src/main.cpp",
+  "file": "/home/leonw/Documents/dev/SDL_Space/src/main.cpp",
+  "output": "CMakeFiles/Space.dir/src/main.cpp.o"
+}
+]
