@@ -14,7 +14,7 @@ class Background : public IBackground  {
             backRect.y = 0;
         };
 
-        void draw(float cameraX, float cameraY) override;
+        void draw() override;
 
         SDL_FRect& rect() override {
             return backRect;

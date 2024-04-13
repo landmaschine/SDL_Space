@@ -38,13 +38,12 @@ void space::input() {
 void space::update(double dt) {
     playerMove.playerPosUpdate(player, inputhandler, dt);
     playerMove.playerRotUpdate(player, inputhandler, dt);
-    camera.easing(player, window, 1);
 }
 
 void space::render() {
     SDL_RenderClear(renderer.renderer());
-    backgroundmanager.draw(camera.rect().x, camera.rect().y);
-    player.draw(camera.rect().x, camera.rect().y);
+    backgroundmanager.draw();
+    player.draw();
     SDL_RenderPresent(renderer.renderer());
 }
 

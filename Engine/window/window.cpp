@@ -32,8 +32,4 @@ void Window::resizeUpdate(IPlayer &player, ICamera& cam) {
     SDL_GetWindowSize(_windowP, &_w, &_h);
     player.dstRect().x = (_w / 2) - (player.srcRect().w / 2);
     player.dstRect().y = (_h / 2) - (player.srcRect().h / 2);
-    cam.rect().x = player.dstRect().x / 2;
-    cam.rect().y = player.dstRect().y / 2;
-    cam.rect().w = _w / 2;
-    cam.rect().h = _h / 2;
 }
