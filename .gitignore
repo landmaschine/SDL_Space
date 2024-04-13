@@ -1,4 +1,5 @@
-/home/leonw/Documents/dev/SDL_Space/build
+/build
+/build/CMakeFiles
+/build/Testing
 .vscode/c_cpp_properties.json
 .vscode/settings.json
-
