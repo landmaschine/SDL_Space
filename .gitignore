@@ -86,3 +86,12 @@ build/Testing/Temporary/LastTest_20240410-1513.log
 build/Testing/Temporary/LastTest_20240411-1529.log
 .vscode/c_cpp_properties.json
 .vscode/settings.json
+build/.cmake/api/v1/reply/cache-v2-a72e0fbeb66b2a1fc272.json
+build/.cmake/api/v1/reply/cmakeFiles-v1-6288ff81ec99cd2ce5b3.json
+build/.cmake/api/v1/reply/index-2024-04-13T09-30-07-0738.json
+build/.cmake/api/v1/reply/index-2024-04-13T09-34-34-0029.json
+build/CMakeFiles/Space.dir/compiler_depend.internal
+build/CMakeFiles/Space.dir/Engine/camera/Camera.cpp.o
+build/CMakeFiles/Space.dir/Engine/camera/Camera.cpp.o.d
+build/Testing/20240413-0930/Test.xml
+build/Testing/Temporary/LastTest_20240413-0930.log
