@@ -1,5 +1,0 @@
-/home/leonw/Documents/dev/SDL_Space/build/CMakeFiles/Space.dir
-/home/leonw/Documents/dev/SDL_Space/build/CMakeFiles/package.dir
-/home/leonw/Documents/dev/SDL_Space/build/CMakeFiles/package_source.dir
-/home/leonw/Documents/dev/SDL_Space/build/CMakeFiles/edit_cache.dir
-/home/leonw/Documents/dev/SDL_Space/build/CMakeFiles/rebuild_cache.dir
